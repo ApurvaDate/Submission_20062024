@@ -1,0 +1,419 @@
+PatientID,FollowupDays,FinalStatus,Medication,Age,Gender,AscitesStatus,LiverSize,SpiderAngiomas,FluidAccumulationSwelling,BilirubinLevel,LipidProfile1,ProteinLevel,CuLevel,AlkalinePhosphateLevel,SGOTLevel,LipidProfile2,PlateletsCount,ProthrombinLevel,StageofDisease,DiureticTherapy
+1,1990,death,,23843,F,,,,absent,1.11,,3.73,,,,,136.0,10.61,,no
+2,4747,censored,,12667,F,,,,absent,1.82,,3.27,,,,,,18.18,2.0,no
+3,1565,censored,,24961,F,,,,absent,0.71,,3.09,,,,,161.0,10.1,4.0,no
+4,3249,death,Drug_A,19958,F,no fluid buildup,enlarged,normal,present or resolved,2.32,262.0,3.21,235.0,11433.4,106.84,93.0,211.0,12.52,3.0,not required or resolved
+5,138,death,Drug_A,25846,M,no fluid buildup,normal,spider angiomas present,present,2.42,169.0,2.59,229.0,1066.56,122.11,74.0,105.0,14.24,3.0,done
+6,3800,death,Drug_B,15480,F,no fluid buildup,enlarged,normal,absent,4.75,298.0,3.47,116.0,10032.53,208.46,99.0,191.0,10.4,2.0,no
+7,4148,censored,Drug_B,14341,F,no fluid buildup,normal,normal,absent,0.71,133.0,3.64,17.0,427.23,50.1,55.0,259.0,11.11,1.0,no
+8,4009,censored,Drug_A,20868,F,no fluid buildup,enlarged,normal,present or resolved,1.31,252.0,3.54,48.0,1149.38,72.01,99.0,79.0,13.03,4.0,not required or resolved
+9,1598,censored,Drug_B,22342,F,no fluid buildup,enlarged,normal,absent,3.13,279.0,3.0,42.0,1121.1,126.25,124.0,216.0,9.9,3.0,no
+10,684,censored,,21608,F,,,,absent,0.81,,3.79,,,,,263.0,10.5,3.0,no
+11,50,death,Drug_B,26287,F,accumulation of fluid,normal,spider angiomas present,present,12.73,202.0,2.77,142.0,927.18,148.72,141.0,295.0,11.62,4.0,done
+12,1354,censored,,25706,F,,,,absent,0.4,,3.06,,,,,169.0,11.01,3.0,no
+13,3061,censored due to transplant,Drug_B,12681,F,no fluid buildup,enlarged,normal,absent,1.11,468.0,4.24,38.0,1660.44,153.42,100.0,341.0,10.4,3.0,no
+14,1091,censored,,14529,F,,,,absent,0.91,,3.87,,,,,176.0,11.31,4.0,no
+15,674,death,,24961,F,,,,absent,1.21,,2.99,,,,,170.0,11.01,3.0,no
+16,4422,censored,Drug_A,17386,F,no fluid buildup,normal,normal,absent,1.31,,3.37,107.0,11157.07,105.53,,350.0,11.11,4.0,no
+17,979,censored,,13039,F,,,,absent,0.71,,3.26,,,,,305.0,10.91,3.0,no
+18,591,death,,23471,F,,,,present or resolved,3.33,,2.76,,,,,219.0,11.21,4.0,not required or resolved
+19,1828,death,Drug_B,12524,F,no fluid buildup,enlarged,spider angiomas present,absent,1.11,502.0,3.84,89.0,14001.02,96.41,315.0,357.0,10.71,2.0,no
+20,1117,censored,,20118,M,,,,absent,1.11,,3.73,,,,,215.0,10.91,3.0,no
+21,1544,censored,,14902,F,,,,absent,0.91,,3.54,,,,,114.0,11.01,4.0,no
+22,1420,censored due to transplant,Drug_A,12275,F,no fluid buildup,enlarged,normal,absent,2.12,390.0,3.81,64.0,1629.13,151.85,32.0,181.0,10.2,4.0,no
+23,1061,censored,,14529,F,,,,absent,1.52,,3.85,,,,,249.0,10.91,3.0,no
+24,2530,censored,Drug_A,16604,F,no fluid buildup,enlarged,spider angiomas present,absent,1.41,250.0,3.62,64.0,559.54,76.71,104.0,77.0,10.4,4.0,no
+25,1958,censored,Drug_B,21122,F,no fluid buildup,enlarged,normal,absent,0.51,225.0,3.74,39.0,892.84,76.71,102.0,226.0,9.7,3.0,no
+26,3361,death,Drug_B,19680,M,no fluid buildup,normal,normal,absent,3.23,261.0,4.34,212.0,1050.4,111.15,77.0,262.0,11.82,3.0,no
+27,1905,censored,,23471,F,,,,absent,0.91,,3.62,,,,,219.0,10.1,3.0,no
+28,754,death,Drug_A,23025,M,no fluid buildup,enlarged,spider angiomas present,present or resolved,3.03,259.0,3.83,295.0,1680.64,103.32,110.0,137.0,10.0,4.0,not required or resolved
+29,783,death,,17510,F,,,,absent,16.16,,3.45,,,,,465.0,13.94,2.0,no
+30,3669,censored,Drug_A,17329,F,no fluid buildup,enlarged,normal,absent,0.81,318.0,4.28,13.0,1653.37,172.21,69.0,417.0,11.01,3.0,no
+31,2173,censored,Drug_B,19713,F,no fluid buildup,normal,normal,absent,1.31,,3.8,27.0,1294.82,101.76,,111.0,10.4,3.0,no
+32,42,death,,18254,F,,,,absent,13.94,,2.8,,,,,380.0,,4.0,no
+33,2394,death,Drug_B,20761,F,no fluid buildup,enlarged,normal,absent,1.01,367.0,3.51,20.0,727.2,136.2,87.0,277.0,10.0,2.0,no
+34,742,death,Drug_A,20086,F,no fluid buildup,enlarged,spider angiomas present,absent,3.23,203.0,3.14,181.0,1224.12,161.25,68.0,184.0,11.92,4.0,no
+35,330,death,Drug_A,22816,F,accumulation of fluid,enlarged,normal,present,14.24,452.0,2.45,125.0,1851.33,135.34,153.0,205.0,11.11,4.0,done
+36,2060,death,Drug_A,18246,F,accumulation of fluid,normal,normal,absent,2.52,385.0,3.59,110.0,1531.16,241.09,,123.0,10.4,3.0,no
+37,881,death,Drug_B,25114,M,no fluid buildup,enlarged,normal,absent,7.27,249.0,3.76,274.0,1316.03,178.47,90.0,352.0,11.31,4.0,no
+38,1258,censored,Drug_A,14082,F,no fluid buildup,normal,normal,absent,0.71,338.0,3.99,43.0,663.57,52.52,102.0,262.0,10.71,2.0,no
+39,1765,censored,Drug_A,17875,F,no fluid buildup,normal,spider angiomas present,absent,1.31,244.0,3.23,35.0,1571.56,176.9,70.0,191.0,10.71,4.0,no
+40,70,death,Drug_A,19351,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,12.32,397.0,3.11,113.0,2153.32,156.55,240.0,161.0,11.72,4.0,not required or resolved
+41,4154,censored,Drug_B,18197,F,no fluid buildup,enlarged,normal,absent,1.21,260.0,3.61,80.0,2223.01,122.11,75.0,401.0,11.62,4.0,no
+42,3893,censored,Drug_A,19395,F,no fluid buildup,normal,normal,absent,0.81,367.0,3.74,37.0,1858.4,172.21,63.0,267.0,10.61,2.0,no
+43,2326,censored due to transplant,Drug_A,15331,F,no fluid buildup,normal,normal,absent,5.55,533.0,4.22,78.0,2428.04,173.77,77.0,457.0,10.81,3.0,no
+44,891,censored due to transplant,Drug_A,15237,F,no fluid buildup,normal,normal,absent,3.23,342.0,3.21,125.0,3369.36,207.05,83.0,297.0,10.0,4.0,no
+45,1808,death,Drug_A,19343,F,no fluid buildup,enlarged,spider angiomas present,absent,8.48,563.0,4.03,285.0,976.67,90.8,305.0,272.0,11.11,4.0,no
+46,1649,censored,Drug_B,15940,F,no fluid buildup,enlarged,normal,absent,2.83,325.0,3.09,66.0,2587.62,91.91,206.0,226.0,9.6,3.0,no
+47,246,death,,22725,F,,,,absent,1.31,,3.04,,,,,218.0,10.81,3.0,no
+48,3635,censored,Drug_B,15067,F,no fluid buildup,normal,normal,absent,0.71,206.0,3.7,28.0,691.85,73.58,57.0,194.0,10.91,3.0,no
+49,1673,death,Drug_A,17862,F,no fluid buildup,enlarged,normal,absent,6.36,440.0,3.05,76.0,2197.76,172.21,102.0,231.0,10.71,4.0,no
+50,1393,censored,Drug_A,14474,F,no fluid buildup,enlarged,spider angiomas present,absent,2.02,313.0,3.39,71.0,1269.57,123.22,116.0,140.0,9.9,3.0,no
+51,396,death,Drug_A,21893,F,accumulation of fluid,enlarged,spider angiomas present,present,14.64,263.0,2.63,159.0,1735.18,139.33,170.0,186.0,12.32,4.0,done
+52,1342,death,Drug_B,22335,F,no fluid buildup,enlarged,normal,absent,5.15,377.0,3.55,142.0,1938.19,123.67,133.0,315.0,13.13,4.0,no
+53,1349,censored,Drug_B,16796,F,no fluid buildup,normal,normal,absent,3.64,377.0,3.54,145.0,1442.28,189.88,43.0,147.0,10.2,2.0,no
+54,1353,censored,,21235,F,,,,present or resolved,2.02,,3.1,,,,,78.0,12.22,4.0,not required or resolved
+55,1084,death,,18628,F,,,,absent,16.16,,3.39,,,,,376.0,10.1,3.0,no
+56,1466,censored,Drug_A,18668,F,no fluid buildup,normal,normal,absent,1.01,221.0,3.89,68.0,646.4,146.45,106.0,93.0,10.81,2.0,no
+57,322,death,Drug_B,18562,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,6.67,246.0,3.44,202.0,1837.19,172.21,90.0,129.0,12.22,3.0,not required or resolved
+58,1284,death,Drug_A,19093,M,no fluid buildup,enlarged,normal,absent,7.37,430.0,3.97,267.0,2448.24,147.16,215.0,246.0,10.61,3.0,no
+59,2314,censored,,14529,F,,,,absent,1.62,,3.79,,,,,142.0,10.5,3.0,no
+60,1314,censored,,23843,F,,,,absent,0.51,,3.69,,,,,416.0,10.3,4.0,no
+61,1429,death,Drug_B,19382,F,no fluid buildup,enlarged,spider angiomas present,absent,5.25,1139.0,3.72,54.0,3260.28,167.51,164.0,412.0,10.0,3.0,no
+62,1156,death,,22353,F,,,,present or resolved,1.82,,3.66,,,,,220.0,10.0,2.0,not required or resolved
+63,1199,death,Drug_B,13222,F,no fluid buildup,normal,normal,absent,1.31,412.0,4.26,68.0,1400.87,144.03,135.0,289.0,10.2,3.0,no
+64,1405,censored,Drug_B,12109,F,no fluid buildup,normal,normal,absent,5.66,341.0,3.74,132.0,2160.39,186.85,191.0,210.0,10.0,4.0,no
+65,1477,death,Drug_A,15501,F,no fluid buildup,enlarged,spider angiomas present,absent,3.23,,3.6,78.0,1807.9,140.9,,146.0,10.2,4.0,no
+66,2688,censored,,19745,F,,,,absent,0.61,,4.23,,,,,323.0,10.0,1.0,no
+67,4510,censored,Drug_A,18207,F,no fluid buildup,normal,normal,absent,1.11,364.0,3.68,36.0,5484.5,67.75,88.0,198.0,10.71,2.0,no
+68,844,death,Drug_B,22132,F,no fluid buildup,enlarged,normal,absent,25.75,361.0,3.56,223.0,2492.68,203.52,202.0,147.0,11.62,2.0,no
+69,777,death,,19745,F,,,,absent,12.73,,2.9,,,,,111.0,11.92,4.0,no
+70,1138,censored,,19372,F,,,,absent,1.01,,3.68,,,,,333.0,10.71,3.0,no
+71,2999,censored,,23098,F,,,,absent,0.81,,2.5,,,,,267.0,10.1,,no
+72,1418,censored,Drug_B,20920,F,no fluid buildup,normal,normal,absent,0.51,199.0,3.81,38.0,920.11,57.57,55.0,274.0,9.9,2.0,no
+73,3198,censored,,18628,F,,,,absent,0.91,,4.05,,,,,239.0,10.61,3.0,no
+74,261,death,Drug_B,20850,F,accumulation of fluid,enlarged,spider angiomas present,present,17.57,398.0,2.97,569.0,6125.45,229.31,189.0,209.0,11.82,4.0,done
+75,2550,censored,Drug_B,17669,F,no fluid buildup,normal,normal,absent,0.51,319.0,3.69,69.0,1733.16,189.43,70.0,348.0,9.9,3.0,no
+76,1967,censored,,12294,F,,,,absent,2.22,,3.8,,,,,247.0,10.0,3.0,no
+77,2608,censored,,24215,F,,,,absent,2.12,,3.37,,,,,151.0,10.2,4.0,no
+78,455,death,Drug_B,16991,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,5.05,328.0,3.5,112.0,2484.6,248.91,55.0,421.0,12.02,4.0,not required or resolved
+79,2693,censored,Drug_B,15407,F,no fluid buildup,enlarged,normal,absent,5.76,1494.0,3.29,85.0,1979.6,461.82,106.0,208.0,9.6,2.0,no
+80,4414,censored,Drug_A,16604,M,no fluid buildup,normal,normal,absent,0.71,244.0,4.12,74.0,5948.9,57.33,116.0,,10.71,1.0,no
+81,3222,censored,Drug_B,16431,F,no fluid buildup,normal,normal,absent,0.51,270.0,4.12,9.0,1185.74,87.67,94.0,443.0,10.1,2.0,no
+82,4085,censored,Drug_B,16792,F,no fluid buildup,normal,normal,absent,0.71,300.0,4.14,40.0,667.61,108.02,65.0,317.0,11.41,2.0,no
+83,129,death,Drug_A,20091,F,no fluid buildup,enlarged,spider angiomas present,present,11.51,179.0,2.83,599.0,970.61,283.36,198.0,277.0,12.52,4.0,done
+84,2741,death,Drug_B,19107,F,no fluid buildup,normal,normal,absent,1.11,470.0,3.95,85.0,1804.87,331.89,183.0,255.0,10.1,3.0,no
+85,2263,death,,20863,F,,,,absent,1.82,,3.68,,,,,138.0,10.1,,no
+86,4477,censored,Drug_B,20116,F,no fluid buildup,enlarged,normal,absent,1.82,264.0,3.37,103.0,7349.77,83.39,156.0,280.0,10.71,4.0,no
+87,3324,death,Drug_B,17590,F,no fluid buildup,enlarged,normal,absent,2.12,264.0,3.51,59.0,2065.45,90.8,83.0,220.0,11.62,4.0,no
+88,1056,censored due to transplant,Drug_B,18231,F,no fluid buildup,enlarged,normal,present or resolved,8.79,313.0,3.93,109.0,643.37,118.17,239.0,292.0,9.7,2.0,not required or resolved
+89,1663,censored,,16020,F,,,,absent,0.71,,3.72,,,,,299.0,9.6,2.0,no
+90,2154,censored,Drug_B,17608,F,no fluid buildup,normal,normal,absent,1.21,234.0,4.02,11.0,1084.74,101.76,98.0,218.0,10.0,3.0,no
+91,128,death,Drug_B,17282,F,accumulation of fluid,enlarged,spider angiomas present,present,17.57,,2.67,185.0,564.59,120.54,,392.0,11.82,2.0,done
+92,1404,censored,,25333,M,,,,absent,3.03,,3.18,,,,,136.0,10.1,3.0,no
+93,2089,death,,20118,F,,,,absent,1.01,,3.64,,,,,,12.22,2.0,no
+94,2477,death,Drug_B,24685,F,no fluid buildup,enlarged,normal,absent,0.81,250.0,4.02,51.0,953.44,93.93,62.0,,11.11,3.0,no
+95,2233,death,Drug_A,17062,F,no fluid buildup,enlarged,normal,absent,5.76,486.0,2.87,164.0,11667.52,138.11,163.0,507.0,12.83,3.0,no
+96,3019,censored,Drug_A,17523,F,no fluid buildup,normal,normal,absent,0.91,349.0,3.81,60.0,801.94,126.81,55.0,329.0,10.71,2.0,no
+97,2588,censored,Drug_B,12616,F,no fluid buildup,normal,normal,present or resolved,1.21,,3.93,59.0,1296.84,175.34,,234.0,9.49,3.0,not required or resolved
+98,1081,censored,,14902,F,,,,absent,4.65,,3.64,,,,,330.0,10.5,3.0,no
+99,2508,censored,,17138,F,,,,absent,0.81,,2.92,,,,,410.0,,1.0,no
+100,761,death,Drug_B,19441,F,no fluid buildup,enlarged,normal,absent,2.73,276.0,3.18,162.0,1548.33,118.98,126.0,219.0,10.61,4.0,no
+101,1636,censored,,18254,F,,,,present or resolved,13.74,,3.03,,,,,228.0,10.0,3.0,not required or resolved
+102,2443,censored due to transplant,Drug_B,17577,F,no fluid buildup,enlarged,normal,absent,1.31,319.0,3.55,76.0,1173.62,148.72,135.0,233.0,10.1,4.0,no
+103,1223,censored,,19372,F,,,,absent,1.52,,3.45,,,,,241.0,10.4,3.0,no
+104,1905,death,Drug_A,20393,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,1.82,246.0,2.57,65.0,6183.02,61.24,91.0,179.0,10.4,4.0,not required or resolved
+105,4189,censored,Drug_A,18464,F,no fluid buildup,enlarged,normal,present or resolved,0.71,237.0,3.6,39.0,1899.81,93.93,121.0,204.0,11.11,3.0,not required or resolved
+106,2768,death,Drug_B,23338,M,no fluid buildup,normal,normal,absent,1.52,334.0,3.99,13.0,582.77,129.94,98.0,161.0,10.2,4.0,no
+107,4213,censored,Drug_B,16354,M,no fluid buildup,normal,normal,absent,0.61,218.0,3.98,28.0,607.01,61.05,186.0,206.0,13.13,1.0,no
+108,1576,censored,Drug_A,15169,F,no fluid buildup,normal,normal,absent,2.12,395.0,3.46,53.0,1408.95,186.29,192.0,321.0,10.3,3.0,no
+109,1502,death,,20863,F,,,,absent,2.83,,3.96,,,,,,10.71,4.0,no
+110,1472,death,Drug_B,23436,F,no fluid buildup,enlarged,normal,absent,2.12,376.0,3.54,53.0,1019.09,151.85,186.0,174.0,11.11,3.0,no
+111,1597,censored,Drug_A,20978,F,no fluid buildup,normal,normal,absent,0.51,321.0,3.35,53.0,619.13,70.7,257.0,273.0,10.3,3.0,no
+112,2424,censored,Drug_A,16540,F,no fluid buildup,normal,normal,absent,1.52,295.0,4.34,51.0,984.75,126.81,55.0,329.0,9.19,2.0,no
+113,789,death,Drug_B,21150,F,no fluid buildup,normal,normal,absent,10.91,941.0,3.22,272.0,2205.84,162.81,155.0,374.0,10.5,4.0,no
+114,177,death,Drug_A,26416,F,accumulation of fluid,enlarged,spider angiomas present,present,6.67,224.0,2.35,140.0,626.2,107.06,90.0,191.0,12.22,4.0,done
+115,2341,censored,Drug_A,16626,F,no fluid buildup,normal,normal,absent,0.61,268.0,4.01,25.0,1175.64,103.32,100.0,196.0,10.2,2.0,no
+116,1072,death,Drug_A,18499,F,no fluid buildup,enlarged,spider angiomas present,absent,6.57,959.0,3.14,113.0,2397.74,172.21,147.0,346.0,11.11,4.0,no
+117,76,death,Drug_B,20281,F,accumulation of fluid,enlarged,spider angiomas present,present or resolved,21.82,176.0,3.34,225.0,3734.37,102.93,166.0,78.0,12.12,4.0,not required or resolved
+118,2441,death,Drug_B,19766,F,no fluid buildup,normal,normal,absent,0.3,282.0,4.04,53.0,4697.71,28.66,187.0,365.0,11.11,3.0,no
+119,1442,censored,Drug_A,21226,F,no fluid buildup,normal,normal,absent,0.51,229.0,3.65,40.0,682.76,83.83,118.0,244.0,10.0,2.0,no
+120,724,censored due to transplant,Drug_A,15357,F,no fluid buildup,enlarged,normal,absent,6.16,1729.0,2.86,90.0,3717.81,159.68,137.0,291.0,10.1,3.0,no
+121,2478,censored,Drug_B,16415,F,no fluid buildup,normal,normal,absent,0.51,121.0,3.65,54.0,812.04,111.15,51.0,265.0,10.71,3.0,no
+122,3068,censored,Drug_A,21075,F,no fluid buildup,normal,normal,absent,0.91,250.0,4.01,175.0,652.46,62.62,83.0,125.0,10.2,1.0,no
+123,830,censored,Drug_A,14156,F,no fluid buildup,normal,normal,absent,2.02,249.0,3.19,70.0,1060.5,118.17,87.0,328.0,10.61,2.0,no
+124,317,death,Drug_B,15418,F,no fluid buildup,enlarged,spider angiomas present,absent,3.64,262.0,2.57,175.0,7349.77,122.47,156.0,121.0,11.11,4.0,no
+125,2339,censored,Drug_A,21250,F,no fluid buildup,enlarged,spider angiomas present,absent,1.41,228.0,3.39,13.0,818.1,73.58,61.0,114.0,11.72,4.0,no
+126,1428,censored,,15274,F,,,,absent,1.21,,2.83,,,,,117.0,11.11,2.0,no
+127,509,death,Drug_A,20213,F,no fluid buildup,normal,spider angiomas present,absent,0.61,642.0,3.87,131.0,953.44,98.63,112.0,299.0,9.6,3.0,no
+128,1509,censored,Drug_A,14305,F,no fluid buildup,normal,normal,absent,0.51,228.0,2.96,22.0,680.74,58.58,84.0,149.0,9.9,1.0,no
+129,3387,censored,Drug_B,15885,F,no fluid buildup,normal,spider angiomas present,absent,0.71,306.0,4.23,82.0,1599.84,112.72,154.0,300.0,10.4,3.0,no
+130,780,censored,Drug_B,12351,F,no fluid buildup,normal,spider angiomas present,absent,6.46,581.0,3.83,189.0,2136.15,137.36,147.0,196.0,10.91,2.0,no
+131,2914,censored,Drug_A,15108,F,no fluid buildup,normal,normal,absent,1.92,452.0,3.87,61.0,1062.52,128.37,173.0,177.0,9.9,3.0,no
+132,2450,censored due to transplant,Drug_A,13595,F,no fluid buildup,normal,normal,absent,3.43,454.0,3.4,32.0,1422.08,117.41,116.0,306.0,11.31,2.0,no
+133,2834,censored,Drug_A,18480,F,no fluid buildup,normal,normal,absent,0.51,219.0,3.89,69.0,457.53,54.79,67.0,264.0,11.21,1.0,no
+134,2127,censored,,13784,F,,,,absent,0.61,,3.59,,,,,243.0,10.4,2.0,no
+135,1210,censored,,16392,F,,,,absent,0.51,,3.37,,,,,252.0,10.71,2.0,no
+136,1542,censored,Drug_B,17666,F,no fluid buildup,normal,spider angiomas present,absent,2.22,331.0,3.49,76.0,1693.77,87.87,114.0,197.0,9.7,3.0,no
+137,925,death,,25706,F,,,,absent,4.24,,3.22,,,,,117.0,11.21,4.0,no
+138,1880,censored,,15274,M,,,,absent,1.72,,3.7,,,,,90.0,11.11,4.0,no
+139,2083,death,Drug_A,14496,F,no fluid buildup,enlarged,spider angiomas present,absent,1.92,490.0,3.58,75.0,1062.52,109.59,107.0,138.0,11.01,3.0,no
+140,2582,censored,Drug_B,20659,F,no fluid buildup,normal,normal,absent,0.91,260.0,4.05,49.0,564.59,43.83,131.0,271.0,10.5,2.0,no
+141,2179,censored,,23843,F,,,,absent,1.11,,3.52,,,,,162.0,9.9,3.0,no
+142,1075,censored,,19000,F,,,,present or resolved,1.92,,3.2,,,,,158.0,10.81,3.0,not required or resolved
+143,40,death,Drug_A,24545,F,accumulation of fluid,normal,normal,present,18.08,176.0,2.12,224.0,712.05,341.38,226.0,60.0,13.03,4.0,done
+144,3991,censored,Drug_B,20799,F,no fluid buildup,normal,normal,absent,0.4,265.0,3.8,29.0,1358.45,139.33,73.0,177.0,11.31,3.0,no
+145,2617,censored,Drug_A,20701,F,no fluid buildup,normal,normal,absent,0.51,,3.89,64.0,669.63,79.84,,304.0,9.8,1.0,no
+146,2226,censored,,16392,F,,,,absent,0.61,,3.54,,,,,147.0,10.0,3.0,no
+147,1179,death,Drug_A,16212,F,accumulation of fluid,enlarged,spider angiomas present,present or resolved,17.27,680.0,2.56,211.0,2098.78,184.73,592.0,262.0,11.62,4.0,not required or resolved
+148,2193,censored,Drug_B,19605,F,no fluid buildup,enlarged,spider angiomas present,absent,0.71,254.0,4.05,11.0,1222.1,73.58,57.0,302.0,9.6,2.0,no
+149,2012,censored due to transplant,Drug_A,13095,M,no fluid buildup,normal,normal,absent,3.54,328.0,4.02,452.0,773.66,131.5,207.0,337.0,10.71,3.0,no
+150,868,censored due to transplant,Drug_A,13170,M,no fluid buildup,normal,normal,absent,2.42,652.0,3.87,104.0,863.55,128.27,192.0,299.0,10.4,3.0,no
+151,2529,censored,Drug_A,21214,F,no fluid buildup,enlarged,normal,absent,0.61,,3.73,164.0,680.74,26.61,,528.0,10.0,2.0,no
+152,1947,censored,Drug_B,13755,F,no fluid buildup,normal,normal,absent,0.71,217.0,3.38,41.0,651.45,93.93,73.0,161.0,9.7,3.0,no
+153,1361,censored,,23098,F,,,,absent,7.37,,3.52,,,,,185.0,11.01,4.0,no
+154,2537,censored,,21608,F,,,,absent,3.03,,3.49,,,,,106.0,10.5,4.0,no
+155,2554,censored,Drug_A,26080,F,no fluid buildup,normal,normal,absent,0.61,,4.12,52.0,671.65,75.14,,318.0,10.3,4.0,no
+156,3433,censored,,23471,F,,,,absent,0.61,,3.98,,,,,229.0,11.62,2.0,no
+157,220,death,Drug_A,22996,F,accumulation of fluid,enlarged,normal,present,7.17,337.0,3.04,153.0,7000.51,182.41,116.0,99.0,12.12,4.0,done
+158,3028,censored,Drug_A,20146,F,no fluid buildup,enlarged,normal,absent,1.11,292.0,4.13,38.0,2141.2,187.86,144.0,311.0,10.1,3.0,no
+159,1141,censored,Drug_A,22793,F,no fluid buildup,enlarged,normal,absent,0.4,248.0,3.62,24.0,804.97,91.91,111.0,282.0,10.5,2.0,no
+160,2630,censored,Drug_A,11279,F,no fluid buildup,enlarged,spider angiomas present,absent,3.03,238.0,3.45,77.0,1417.03,90.8,85.0,483.0,9.9,2.0,no
+161,1222,death,Drug_A,23705,F,no fluid buildup,normal,spider angiomas present,absent,3.84,430.0,3.25,97.0,2743.16,212.91,111.0,223.0,10.71,2.0,no
+162,2029,censored,Drug_B,21097,F,no fluid buildup,enlarged,normal,absent,0.91,363.0,3.69,73.0,3217.86,95.5,152.0,263.0,9.8,4.0,no
+163,4321,censored,Drug_A,21750,F,no fluid buildup,normal,normal,absent,0.91,610.0,3.43,83.0,884.76,72.01,57.0,223.0,10.4,3.0,no
+164,3410,death,Drug_B,20661,F,no fluid buildup,enlarged,spider angiomas present,absent,2.02,269.0,3.71,90.0,761.54,198.82,89.0,133.0,11.92,4.0,no
+165,2069,death,Drug_B,23314,F,no fluid buildup,normal,normal,absent,0.71,257.0,3.78,23.0,1034.24,78.28,57.0,275.0,10.3,3.0,no
+166,2306,censored,Drug_A,11010,F,no fluid buildup,enlarged,normal,absent,3.74,350.0,3.94,77.0,2569.44,223.87,89.0,126.0,11.62,4.0,no
+167,1813,censored,Drug_B,20689,F,no fluid buildup,enlarged,normal,absent,1.01,325.0,4.13,53.0,832.24,61.05,210.0,199.0,9.8,3.0,no
+168,618,death,,17882,F,,,,absent,11.21,,2.87,,,,,,12.32,2.0,no
+169,1349,censored,Drug_A,24583,F,no fluid buildup,normal,normal,absent,1.41,296.0,3.61,33.0,729.22,93.93,68.0,277.0,9.9,3.0,no
+170,1520,death,Drug_B,17048,M,no fluid buildup,normal,normal,absent,2.52,320.0,3.49,221.0,721.14,131.5,138.0,202.0,10.2,3.0,no
+171,2841,censored,Drug_A,20506,F,no fluid buildup,normal,normal,absent,0.91,464.0,3.06,58.0,728.21,86.1,172.0,294.0,9.49,2.0,no
+172,3724,death,Drug_B,20011,F,no fluid buildup,enlarged,spider angiomas present,absent,1.41,261.0,4.2,46.0,1115.04,79.84,78.0,252.0,12.12,4.0,no
+173,1855,censored,Drug_B,24742,F,no fluid buildup,normal,normal,present or resolved,0.61,282.0,3.38,,1103.93,129.94,80.0,289.0,9.9,2.0,not required or resolved
+174,3055,death,Drug_A,16026,F,no fluid buildup,normal,normal,absent,1.11,306.0,3.68,20.0,2129.08,129.94,52.0,342.0,11.21,2.0,no
+175,3538,death,Drug_A,25076,F,no fluid buildup,normal,normal,absent,4.54,476.0,4.13,157.0,1595.8,118.98,269.0,403.0,11.21,3.0,no
+176,1959,censored,Drug_B,12893,F,no fluid buildup,enlarged,spider angiomas present,absent,3.33,305.0,3.44,52.0,313.1,84.54,43.0,93.0,11.62,4.0,no
+177,1287,censored due to transplant,Drug_B,12992,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,1.11,436.0,3.61,45.0,1420.06,191.9,76.0,243.0,11.51,4.0,not required or resolved
+178,2685,censored,Drug_B,17790,F,no fluid buildup,enlarged,normal,absent,0.4,259.0,3.84,44.0,850.42,98.63,108.0,,9.29,2.0,no
+179,191,death,,19372,F,,,,present or resolved,0.71,,2.99,,,,,312.0,10.0,4.0,not required or resolved
+180,1931,censored,Drug_A,18695,F,no fluid buildup,enlarged,normal,absent,0.4,269.0,3.05,47.0,1011.01,134.63,86.0,259.0,10.71,3.0,no
+181,687,death,Drug_A,17431,F,no fluid buildup,enlarged,spider angiomas present,absent,0.81,303.0,2.97,235.0,1811.94,131.5,98.0,312.0,11.31,4.0,no
+182,1728,death,,20118,M,,,,absent,3.54,,3.67,,,,,318.0,10.4,2.0,no
+183,2501,censored,Drug_A,18017,F,no fluid buildup,normal,normal,absent,0.81,258.0,3.58,42.0,1143.32,75.14,93.0,188.0,10.61,3.0,no
+184,2662,death,Drug_A,12471,M,no fluid buildup,normal,normal,absent,1.62,666.0,4.26,95.0,1875.57,153.42,153.0,330.0,11.11,2.0,no
+185,109,death,,20118,F,,,,absent,9.09,,3.32,,,,,280.0,13.23,4.0,no
+186,261,death,Drug_B,16174,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,8.59,,3.37,164.0,1442.28,183.16,,86.0,13.43,4.0,not required or resolved
+187,1315,censored,,13411,F,,,,absent,1.41,,4.02,,,,,393.0,11.11,1.0,no
+188,1412,death,Drug_B,11498,F,no fluid buildup,enlarged,normal,absent,7.27,1025.0,3.29,251.0,3874.36,200.38,277.0,323.0,9.9,3.0,no
+189,1683,censored,Drug_A,11714,F,no fluid buildup,normal,normal,absent,1.11,339.0,3.78,48.0,831.23,84.84,106.0,237.0,9.8,3.0,no
+190,3873,censored,Drug_A,13610,F,no fluid buildup,normal,normal,absent,1.31,356.0,3.71,74.0,2059.39,234.82,67.0,372.0,11.21,2.0,no
+191,3423,censored,Drug_A,21012,F,no fluid buildup,normal,normal,absent,0.61,,4.69,20.0,672.66,54.79,,259.0,10.71,2.0,no
+192,1203,censored,Drug_B,16044,F,no fluid buildup,enlarged,spider angiomas present,absent,2.93,430.0,3.65,74.0,5235.84,290.88,142.0,269.0,10.71,3.0,no
+193,3038,censored,Drug_A,19704,M,no fluid buildup,enlarged,normal,absent,0.61,253.0,3.94,25.0,687.81,57.92,105.0,178.0,10.91,4.0,no
+194,604,death,Drug_B,26784,M,no fluid buildup,enlarged,normal,present or resolved,2.02,424.0,3.29,63.0,3227.96,78.28,90.0,337.0,11.51,3.0,not required or resolved
+195,933,death,Drug_B,19479,F,no fluid buildup,enlarged,normal,present or resolved,28.28,561.0,3.29,155.0,3934.96,200.38,169.0,328.0,10.1,3.0,not required or resolved
+196,1463,death,,16392,M,,,,absent,9.6,,3.67,,,,,286.0,10.3,3.0,no
+197,3784,censored,Drug_A,10761,F,no fluid buildup,normal,normal,absent,1.01,241.0,3.81,78.0,1895.77,98.63,99.0,305.0,10.3,1.0,no
+198,1247,censored,,15647,F,,,,absent,8.18,,2.85,,,,,189.0,10.5,2.0,no
+199,1158,death,Drug_A,18381,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,20.2,658.0,3.49,162.0,3324.92,217.6,182.0,222.0,12.52,3.0,not required or resolved
+200,4038,death,Drug_A,16586,M,no fluid buildup,enlarged,normal,absent,2.12,460.0,4.04,126.0,5776.19,224.1,227.0,68.0,10.0,2.0,no
+201,3211,death,Drug_B,13645,F,no fluid buildup,enlarged,spider angiomas present,absent,3.33,386.0,3.57,104.0,1246.34,139.33,86.0,229.0,11.11,4.0,no
+202,2946,censored,Drug_B,19075,F,no fluid buildup,normal,spider angiomas present,absent,0.71,312.0,3.88,97.0,866.58,42.27,104.0,247.0,11.51,3.0,no
+203,961,death,Drug_A,17070,F,no fluid buildup,enlarged,spider angiomas present,present,5.15,,3.26,18.0,797.9,181.6,,101.0,13.13,4.0,done
+204,1925,censored,Drug_A,14388,F,no fluid buildup,normal,normal,absent,1.01,312.0,3.7,68.0,1226.14,159.68,99.0,302.0,9.8,3.0,no
+205,2198,censored,Drug_B,13805,F,no fluid buildup,enlarged,normal,absent,0.51,150.0,4.08,231.0,603.98,53.23,56.0,162.0,10.0,2.0,no
+206,2218,censored due to transplant,Drug_B,14999,F,no fluid buildup,normal,normal,absent,0.51,203.0,3.77,44.0,1358.45,54.79,143.0,436.0,10.2,2.0,no
+207,3998,censored,Drug_A,12150,F,no fluid buildup,normal,normal,absent,0.71,175.0,4.13,59.0,648.42,72.01,45.0,198.0,10.71,3.0,no
+208,2201,censored,Drug_B,18539,M,no fluid buildup,enlarged,normal,absent,0.91,349.0,3.4,82.0,1108.98,123.67,89.0,292.0,10.1,2.0,no
+209,729,censored due to transplant,Drug_A,14849,F,no fluid buildup,enlarged,spider angiomas present,absent,3.13,229.0,3.79,123.0,1147.36,111.1,90.0,258.0,10.1,3.0,no
+210,1812,censored,Drug_A,20892,F,no fluid buildup,normal,normal,absent,0.4,234.0,3.76,24.0,372.69,51.66,137.0,319.0,10.2,3.0,no
+211,1772,censored,Drug_B,17052,F,no fluid buildup,enlarged,normal,absent,0.61,275.0,3.69,48.0,801.94,53.23,211.0,298.0,9.7,3.0,no
+212,461,death,,20863,F,,,,absent,7.17,,3.55,,,,,706.0,11.92,,no
+213,2135,censored,Drug_B,15913,F,no fluid buildup,normal,normal,absent,1.62,217.0,4.21,68.0,945.36,136.2,84.0,172.0,9.7,3.0,no
+214,815,death,Drug_A,19968,F,accumulation of fluid,enlarged,spider angiomas present,absent,1.21,271.0,3.15,,1455.41,167.51,67.0,162.0,11.21,4.0,no
+215,2965,censored,Drug_A,27945,F,no fluid buildup,normal,normal,present or resolved,1.21,290.0,3.4,32.0,798.91,57.92,112.0,208.0,10.81,2.0,not required or resolved
+216,3487,censored,,14902,F,,,,absent,0.61,,4.08,,,,,127.0,11.31,2.0,no
+217,196,death,Drug_A,13888,F,no fluid buildup,normal,normal,absent,1.11,348.0,4.44,76.0,1878.6,220.74,71.0,438.0,10.81,3.0,no
+218,2671,censored,,23098,F,,,,absent,1.31,,3.43,,,,,163.0,10.71,4.0,no
+219,344,death,Drug_A,23252,F,accumulation of fluid,enlarged,normal,present or resolved,4.54,192.0,3.08,204.0,1030.2,176.9,116.0,136.0,11.51,4.0,not required or resolved
+220,980,death,,21981,F,,,,absent,1.31,,3.15,,,,,122.0,9.7,2.0,no
+221,1767,censored,Drug_B,20645,F,no fluid buildup,enlarged,normal,absent,0.81,327.0,3.55,39.0,1249.37,67.32,144.0,363.0,10.1,3.0,no
+222,1185,death,,15647,F,,,,absent,4.44,,4.57,,,,,99.0,10.91,4.0,no
+223,40,death,,17138,F,,,,absent,5.05,,2.96,,,,,254.0,10.5,,no
+224,964,death,Drug_B,14010,F,no fluid buildup,enlarged,normal,absent,11.11,680.0,3.59,365.0,2436.12,169.07,138.0,461.0,9.9,3.0,no
+225,204,death,Drug_B,21671,F,no fluid buildup,enlarged,normal,absent,5.25,,2.25,238.0,607.01,136.35,,201.0,12.42,4.0,no
+226,1280,censored,Drug_A,14191,F,no fluid buildup,normal,normal,absent,2.42,345.0,3.8,91.0,1669.53,151.5,125.0,208.0,10.91,3.0,no
+227,1863,censored,Drug_B,12362,F,no fluid buildup,enlarged,normal,absent,13.13,1349.0,4.2,72.0,3545.1,211.34,109.0,331.0,12.02,3.0,no
+228,1287,censored,Drug_B,19643,F,no fluid buildup,enlarged,normal,absent,1.11,343.0,3.4,74.0,291.89,97.97,92.0,238.0,10.3,3.0,no
+229,1398,death,Drug_B,16477,F,no fluid buildup,enlarged,spider angiomas present,absent,17.57,1792.0,3.46,209.0,2085.65,167.51,96.0,409.0,11.62,3.0,no
+230,2274,death,Drug_A,20636,F,no fluid buildup,enlarged,normal,absent,0.71,284.0,3.03,53.0,9157.47,72.96,109.0,551.0,10.71,4.0,no
+231,300,death,Drug_B,22032,F,no fluid buildup,normal,spider angiomas present,absent,3.64,238.0,3.56,95.0,596.91,82.97,94.0,69.0,13.74,4.0,no
+232,1386,censored,Drug_A,17267,F,no fluid buildup,normal,normal,absent,0.81,255.0,3.51,66.0,694.88,57.57,79.0,246.0,10.1,1.0,no
+233,1560,death,Drug_A,26390,F,no fluid buildup,normal,spider angiomas present,present or resolved,2.02,227.0,3.57,52.0,942.33,70.45,61.0,196.0,12.83,3.0,not required or resolved
+234,1751,censored,Drug_B,15196,F,no fluid buildup,enlarged,normal,absent,0.61,301.0,3.39,23.0,2796.69,222.3,84.0,296.0,11.01,4.0,no
+235,970,death,Drug_A,19087,F,no fluid buildup,enlarged,spider angiomas present,absent,6.77,377.0,3.78,105.0,988.79,129.94,99.0,260.0,11.21,4.0,no
+236,2537,censored,Drug_B,15858,F,no fluid buildup,normal,normal,absent,4.75,482.0,4.42,44.0,1645.29,239.52,75.0,171.0,10.5,3.0,no
+237,527,censored due to transplant,Drug_A,20857,M,no fluid buildup,enlarged,normal,absent,1.21,277.0,3.46,102.0,1153.42,75.75,90.0,212.0,11.41,4.0,no
+238,1203,censored,Drug_B,21008,F,no fluid buildup,enlarged,normal,absent,0.61,241.0,3.48,31.0,1082.72,55.55,63.0,222.0,10.81,2.0,no
+239,1403,censored,Drug_B,18092,F,no fluid buildup,normal,normal,absent,1.31,293.0,3.47,76.0,1092.82,85.85,193.0,245.0,9.6,3.0,no
+240,1335,censored,Drug_A,14274,F,no fluid buildup,normal,normal,absent,2.22,577.0,3.81,78.0,2545.2,92.92,112.0,302.0,9.6,4.0,no
+241,2265,death,Drug_A,18200,F,no fluid buildup,enlarged,normal,absent,3.54,393.0,3.33,68.0,886.78,139.33,92.0,202.0,10.3,3.0,no
+242,1329,censored,,18628,F,,,,absent,1.62,,3.51,,,,,271.0,10.3,2.0,no
+243,1315,censored,Drug_B,18719,M,no fluid buildup,enlarged,normal,absent,8.69,551.0,3.77,85.0,1080.7,128.27,151.0,285.0,11.31,3.0,no
+244,1129,censored,,24589,F,,,,absent,2.52,,3.36,,,,,250.0,10.91,4.0,no
+245,1237,censored,Drug_B,22599,F,no fluid buildup,enlarged,spider angiomas present,absent,1.01,375.0,3.28,110.0,1201.9,141.4,54.0,243.0,10.71,4.0,no
+246,1758,censored,Drug_B,12808,F,no fluid buildup,normal,normal,absent,0.91,583.0,3.38,79.0,985.76,117.41,175.0,315.0,11.31,2.0,no
+247,1707,censored due to transplant,,12294,F,,,,absent,2.93,,4.12,,,,,409.0,10.61,3.0,no
+248,719,death,,24589,F,,,,absent,15.15,,3.43,,,,,147.0,11.21,4.0,no
+249,1066,death,Drug_A,19859,M,no fluid buildup,enlarged,normal,absent,4.04,197.0,3.48,81.0,2520.96,134.63,140.0,207.0,11.41,4.0,no
+250,655,death,,17882,F,,,,absent,2.12,,4.14,,,,,196.0,9.09,3.0,no
+251,2960,censored,Drug_A,23419,F,no fluid buildup,normal,normal,absent,1.11,402.0,3.64,80.0,3506.72,156.55,150.0,337.0,10.2,2.0,no
+252,2639,censored,Drug_B,16227,F,no fluid buildup,enlarged,spider angiomas present,present or resolved,0.61,222.0,3.38,58.0,1636.2,154.98,79.0,304.0,11.31,4.0,not required or resolved
+253,2294,censored,Drug_B,12008,F,no fluid buildup,normal,spider angiomas present,absent,4.75,238.0,3.59,114.0,1404.91,139.33,112.0,325.0,10.0,3.0,no
+254,2333,censored,Drug_B,13336,F,no fluid buildup,normal,spider angiomas present,absent,0.71,288.0,2.93,38.0,1708.92,142.46,89.0,373.0,9.7,2.0,no
+255,1107,censored,,19000,F,,,,absent,0.61,,3.61,,,,,280.0,10.71,3.0,no
+256,1001,death,Drug_A,26105,M,no fluid buildup,normal,normal,present or resolved,1.41,177.0,3.51,214.0,521.16,97.06,54.0,147.0,12.12,4.0,not required or resolved
+257,1912,censored,Drug_A,15902,F,no fluid buildup,enlarged,spider angiomas present,absent,0.91,519.0,3.09,420.0,2648.22,106.45,86.0,278.0,9.9,4.0,no
+258,3302,censored,Drug_A,22752,F,no fluid buildup,normal,spider angiomas present,present or resolved,3.03,462.0,3.67,75.0,1603.88,108.02,378.0,429.0,10.0,3.0,not required or resolved
+259,189,death,Drug_B,25299,M,accumulation of fluid,enlarged,normal,present,1.31,152.0,3.11,74.0,1123.12,46.97,48.0,208.0,13.33,4.0,done
+260,2001,censored,Drug_A,14444,F,no fluid buildup,normal,normal,absent,0.71,276.0,3.7,110.0,1075.65,89.23,133.0,245.0,10.2,2.0,no
+261,3457,censored,,22353,F,,,,absent,0.61,,4.42,,,,,263.0,10.71,2.0,no
+262,1440,censored,Drug_B,12645,F,no fluid buildup,enlarged,normal,absent,1.31,307.0,3.56,98.0,1638.22,71.71,167.0,249.0,9.6,4.0,no
+263,1026,death,Drug_A,15628,F,no fluid buildup,enlarged,spider angiomas present,absent,16.36,,2.92,42.0,1846.28,302.14,,120.0,12.73,4.0,no
+264,2783,death,,19000,F,,,,absent,3.43,,3.96,,,,,,9.39,2.0,no
+265,2557,death,Drug_A,18760,F,no fluid buildup,normal,normal,absent,0.4,128.0,3.54,14.0,1072.62,50.1,83.0,327.0,10.4,2.0,no
+266,4021,censored,,22353,F,,,,absent,0.71,,3.69,,,,,370.0,11.11,,no
+267,3117,censored,Drug_B,15772,F,no fluid buildup,normal,normal,absent,0.71,583.0,3.71,35.0,1366.53,128.37,103.0,418.0,10.81,2.0,no
+268,1960,censored,,19000,F,,,,absent,0.71,,3.13,,,,,268.0,10.71,3.0,no
+269,3984,censored,Drug_B,15570,F,no fluid buildup,normal,normal,absent,0.61,,3.97,19.0,1844.26,72.01,,464.0,11.01,2.0,no
+270,1618,censored,,20490,F,,,,absent,0.71,,2.96,,,,,204.0,10.71,3.0,no
+271,4149,death,Drug_A,17306,M,no fluid buildup,enlarged,normal,absent,1.41,431.0,3.74,107.0,1928.09,184.73,169.0,120.0,11.11,3.0,no
+272,1640,death,Drug_A,19655,F,no fluid buildup,enlarged,spider angiomas present,absent,5.05,1616.0,3.24,76.0,2682.56,82.97,172.0,177.0,11.01,3.0,no
+273,920,death,Drug_B,25143,F,no fluid buildup,enlarged,normal,absent,8.08,472.0,2.84,141.0,2029.09,200.38,137.0,228.0,10.1,4.0,no
+274,725,death,Drug_B,13334,F,no fluid buildup,enlarged,normal,absent,14.14,816.0,3.46,256.0,2898.7,154.98,135.0,262.0,11.62,3.0,no
+275,2744,censored,Drug_B,21374,F,no fluid buildup,normal,normal,absent,0.61,219.0,3.66,13.0,418.14,76.71,117.0,219.0,10.61,3.0,no
+276,3541,censored,Drug_B,17021,F,no fluid buildup,normal,normal,absent,0.71,283.0,3.89,40.0,1192.81,89.23,128.0,239.0,10.71,3.0,no
+277,3574,censored,Drug_B,21016,F,no fluid buildup,normal,normal,absent,0.3,173.0,3.42,18.0,563.58,72.01,95.0,304.0,10.71,2.0,no
+278,4463,censored,Drug_B,23797,F,no fluid buildup,normal,normal,absent,0.71,373.0,3.82,24.0,5891.33,74.27,85.0,382.0,10.71,2.0,no
+279,2548,censored,Drug_A,19621,F,no fluid buildup,normal,normal,absent,0.51,,4.57,31.0,791.84,75.14,,353.0,10.2,3.0,no
+280,778,death,Drug_B,17175,F,no fluid buildup,enlarged,normal,absent,2.93,335.0,3.64,87.0,1506.92,136.2,101.0,271.0,11.11,4.0,no
+281,3491,censored,,20490,F,,,,absent,0.61,,4.19,,,,,274.0,10.2,2.0,no
+282,1221,censored,Drug_A,21849,F,no fluid buildup,normal,spider angiomas present,absent,6.46,376.0,3.49,158.0,1785.68,121.2,149.0,252.0,10.2,4.0,no
+283,591,death,Drug_B,17235,F,no fluid buildup,enlarged,normal,absent,4.54,375.0,3.41,231.0,2333.1,169.07,133.0,235.0,12.52,3.0,no
+284,3811,censored,Drug_A,18197,F,no fluid buildup,normal,normal,absent,1.01,,3.74,33.0,1270.58,100.19,,331.0,10.5,3.0,no
+285,2362,death,Drug_A,18829,M,no fluid buildup,normal,normal,absent,6.06,620.0,3.74,161.0,5135.24,208.46,92.0,354.0,10.71,1.0,no
+286,828,censored due to transplant,Drug_B,15414,F,no fluid buildup,enlarged,spider angiomas present,absent,4.44,319.0,3.66,314.0,1130.19,115.85,318.0,276.0,9.9,4.0,no
+287,2815,censored,,20118,F,,,,absent,0.71,,4.07,,,,,221.0,9.9,4.0,no
+288,1158,censored,,22725,M,,,,present or resolved,1.31,,3.44,,,,,253.0,11.01,4.0,not required or resolved
+289,2547,censored,Drug_B,16371,F,no fluid buildup,enlarged,normal,absent,1.82,399.0,3.87,39.0,2169.48,103.32,131.0,272.0,10.0,4.0,no
+290,4408,censored,Drug_B,12553,F,no fluid buildup,enlarged,spider angiomas present,absent,2.12,,3.58,124.0,8865.78,57.33,,337.0,11.11,4.0,no
+291,4171,censored,,18254,F,,,,absent,1.21,,4.03,,,,,,11.31,2.0,no
+292,2149,censored,Drug_A,27111,F,no fluid buildup,normal,normal,present or resolved,0.61,,3.36,14.0,740.33,86.1,,253.0,10.2,4.0,not required or resolved
+293,1019,censored,Drug_B,23419,F,no fluid buildup,normal,normal,absent,1.11,416.0,4.03,105.0,1305.93,91.91,111.0,413.0,9.7,4.0,no
+294,1717,censored,Drug_B,13154,F,no fluid buildup,enlarged,spider angiomas present,absent,0.71,194.0,3.89,35.0,470.66,53.53,116.0,152.0,10.4,3.0,no
+295,2805,censored,,19372,M,,,,absent,0.91,,3.17,,,,,187.0,12.42,2.0,no
+296,1488,censored due to transplant,Drug_B,14196,F,no fluid buildup,enlarged,spider angiomas present,absent,3.43,281.0,3.57,145.0,677.71,114.28,71.0,133.0,11.01,3.0,no
+297,1597,censored,Drug_A,21706,F,no fluid buildup,normal,normal,absent,0.51,282.0,4.27,36.0,380.77,56.56,144.0,222.0,10.71,2.0,no
+298,1333,censored due to transplant,,19372,F,,,,absent,1.72,,3.27,,,,,226.0,10.61,3.0,no
+299,3545,censored,Drug_B,16746,F,no fluid buildup,normal,normal,absent,0.91,404.0,3.64,31.0,1705.89,165.94,164.0,320.0,10.5,3.0,no
+300,989,death,Drug_A,21962,M,no fluid buildup,normal,normal,absent,2.32,319.0,3.38,175.0,1617.01,181.6,62.0,386.0,9.8,2.0,no
+301,2511,censored,,23843,F,,,,absent,0.81,,3.52,,,,,307.0,10.4,3.0,no
+302,1768,death,Drug_B,25835,F,no fluid buildup,enlarged,normal,absent,0.91,408.0,3.46,34.0,1884.66,79.84,221.0,231.0,10.0,3.0,no
+303,2277,censored,Drug_B,18579,F,no fluid buildup,normal,spider angiomas present,absent,1.31,207.0,3.37,66.0,1041.31,92.36,124.0,212.0,9.9,3.0,no
+304,3781,censored,Drug_B,18057,M,no fluid buildup,normal,normal,absent,1.82,464.0,3.38,150.0,1486.72,109.59,116.0,168.0,10.3,2.0,no
+305,1306,censored,Drug_B,21308,F,no fluid buildup,enlarged,spider angiomas present,present,8.59,195.0,3.01,199.0,823.15,164.63,77.0,119.0,12.42,4.0,done
+306,2146,censored,Drug_A,22042,F,no fluid buildup,normal,normal,absent,0.51,,3.72,20.0,864.56,56.36,,143.0,10.5,3.0,no
+307,3059,death,Drug_B,22616,F,accumulation of fluid,normal,normal,absent,1.31,305.0,2.78,59.0,1538.23,43.83,110.0,322.0,13.33,4.0,no
+308,4382,censored,Drug_B,18305,M,no fluid buildup,normal,normal,absent,1.92,261.0,3.74,286.0,10500.77,190.22,176.0,209.0,11.11,3.0,no
+309,3138,death,Drug_B,19105,F,no fluid buildup,normal,normal,absent,0.81,212.0,3.22,83.0,1607.92,220.74,111.0,176.0,12.12,3.0,no
+310,1179,death,Drug_A,20637,F,accumulation of fluid,enlarged,normal,present or resolved,6.46,347.0,2.78,16.0,842.34,82.82,177.0,146.0,11.11,4.0,not required or resolved
+311,2271,censored,Drug_B,15309,F,no fluid buildup,enlarged,normal,absent,0.61,237.0,3.23,26.0,1775.58,108.02,66.0,223.0,10.91,4.0,no
+312,695,death,,17138,F,,,,absent,4.54,,2.71,,,,,214.0,11.62,4.0,no
+313,543,death,Drug_B,16745,F,accumulation of fluid,enlarged,spider angiomas present,present,17.37,224.0,3.26,213.0,1994.75,190.99,193.0,141.0,13.13,4.0,done
+314,484,death,,19000,F,,,,present or resolved,7.37,,3.56,,,,,259.0,11.21,1.0,not required or resolved
+315,1153,death,Drug_B,21733,F,no fluid buildup,enlarged,spider angiomas present,absent,3.43,523.0,1.98,117.0,2272.5,205.08,89.0,186.0,10.81,4.0,no
+316,1660,censored,Drug_B,19508,F,no fluid buildup,enlarged,spider angiomas present,absent,3.23,378.0,3.17,131.0,865.57,89.89,,367.0,9.6,3.0,no
+317,791,death,Drug_A,25174,M,no fluid buildup,enlarged,normal,present or resolved,4.04,420.0,4.03,180.0,969.6,86.86,239.0,263.0,9.9,2.0,not required or resolved
+318,2034,death,Drug_A,19930,F,no fluid buildup,normal,normal,absent,0.3,235.0,4.12,20.0,628.22,67.32,67.0,350.0,10.0,3.0,no
+319,1599,death,,24961,F,,,,present or resolved,2.22,,3.29,,,,,167.0,11.21,4.0,not required or resolved
+320,2084,censored,Drug_B,17421,F,no fluid buildup,enlarged,normal,absent,1.11,331.0,3.34,162.0,1272.6,95.5,132.0,139.0,11.72,4.0,no
+321,850,death,Drug_B,17371,F,no fluid buildup,normal,spider angiomas present,present,22.73,941.0,3.15,96.0,5449.96,247.35,131.0,161.0,11.72,3.0,done
+322,3067,censored,Drug_A,20848,F,no fluid buildup,normal,normal,absent,0.81,265.0,3.38,27.0,1652.36,117.41,68.0,201.0,9.9,2.0,no
+323,3206,censored,Drug_A,23699,F,no fluid buildup,enlarged,normal,absent,0.91,424.0,3.91,30.0,1019.09,57.92,229.0,,9.8,3.0,no
+324,2376,death,Drug_A,15836,F,no fluid buildup,normal,spider angiomas present,absent,3.23,567.0,3.11,80.0,2298.76,145.59,87.0,245.0,11.11,2.0,no
+325,3952,censored,Drug_A,14977,F,no fluid buildup,normal,normal,absent,1.21,258.0,3.64,75.0,731.24,142.46,106.0,421.0,10.1,1.0,no
+326,1282,censored,Drug_B,16843,F,no fluid buildup,normal,normal,absent,1.01,396.0,3.61,51.0,1320.07,74.74,101.0,289.0,10.61,4.0,no
+327,3548,death,Drug_A,24084,F,no fluid buildup,normal,normal,absent,0.81,233.0,3.91,176.0,9099.9,128.99,95.0,289.0,11.11,3.0,no
+328,2806,censored,Drug_B,18165,F,no fluid buildup,normal,normal,absent,0.61,288.0,3.45,34.0,1886.68,78.28,203.0,477.0,10.1,2.0,no
+329,1336,death,Drug_A,12530,F,no fluid buildup,enlarged,normal,absent,6.87,,3.29,97.0,1227.15,153.42,,221.0,11.82,4.0,no
+330,1622,censored,,21981,F,,,,absent,1.31,,3.43,,,,,238.0,9.8,1.0,no
+331,610,censored due to transplant,,15274,F,,,,absent,5.55,,2.33,,,,,506.0,10.5,4.0,no
+332,782,death,Drug_B,13441,F,no fluid buildup,enlarged,normal,absent,11.51,614.0,3.34,66.0,1807.9,153.42,207.0,292.0,10.91,4.0,no
+333,1397,censored,Drug_A,17195,F,no fluid buildup,normal,normal,absent,1.62,328.0,3.73,70.0,2608.83,143.42,138.0,278.0,9.7,3.0,no
+334,2244,censored due to transplant,,18254,F,,,,absent,18.18,,3.07,,,,,423.0,9.8,2.0,no
+335,1863,censored,Drug_A,22264,F,no fluid buildup,enlarged,normal,absent,1.62,446.0,2.98,107.0,828.2,86.1,106.0,177.0,10.2,3.0,no
+336,894,death,Drug_A,22835,F,no fluid buildup,enlarged,normal,absent,3.94,399.0,3.23,59.0,1454.4,154.98,129.0,152.0,10.1,4.0,no
+337,2156,censored,Drug_A,18703,F,no fluid buildup,normal,spider angiomas present,absent,0.51,404.0,3.43,9.0,1145.34,97.06,54.0,348.0,10.3,3.0,no
+338,1307,censored,Drug_B,11691,F,no fluid buildup,normal,normal,absent,0.81,331.0,3.34,63.0,1116.05,138.37,94.0,287.0,11.01,4.0,no
+339,218,death,,19000,F,,,,absent,14.14,,2.61,,,,,186.0,11.72,4.0,no
+340,1752,censored,Drug_A,25506,F,no fluid buildup,enlarged,spider angiomas present,absent,1.11,248.0,3.38,118.0,933.24,114.28,89.0,310.0,10.1,4.0,no
+341,1056,censored,,16020,F,,,,absent,0.71,,3.77,,,,,209.0,10.91,3.0,no
+342,1011,censored due to transplant,,13784,F,,,,present or resolved,0.81,,3.03,,,,,74.0,10.91,4.0,not required or resolved
+343,1217,censored,Drug_A,13238,F,no fluid buildup,normal,normal,absent,0.51,221.0,3.97,22.0,669.63,45.45,74.0,241.0,10.91,3.0,no
+344,1552,censored,Drug_A,9789,F,no fluid buildup,enlarged,spider angiomas present,absent,1.01,452.0,3.78,104.0,1139.28,71.71,115.0,223.0,10.3,3.0,no
+345,2249,censored,Drug_A,22964,F,no fluid buildup,normal,normal,absent,0.51,225.0,3.84,15.0,1054.44,81.41,88.0,503.0,10.1,2.0,no
+346,184,death,Drug_B,21912,F,no fluid buildup,enlarged,spider angiomas present,absent,3.23,262.0,3.22,92.0,823.15,128.37,99.0,156.0,12.12,4.0,no
+347,3393,death,Drug_B,14001,F,no fluid buildup,enlarged,spider angiomas present,present,3.33,301.0,3.59,133.0,1039.29,120.54,49.0,195.0,11.82,3.0,done
+348,2148,censored,Drug_A,12888,F,no fluid buildup,normal,normal,absent,0.51,,3.93,29.0,905.97,67.32,,414.0,10.2,1.0,no
+349,213,death,Drug_B,19630,F,accumulation of fluid,enlarged,spider angiomas present,absent,24.75,1102.0,3.38,237.0,3777.4,148.72,427.0,391.0,15.35,4.0,no
+350,929,censored,Drug_A,23222,F,no fluid buildup,normal,normal,absent,1.72,438.0,3.38,39.0,1730.13,172.71,99.0,229.0,10.3,2.0,no
+351,1639,censored,Drug_B,27764,M,no fluid buildup,enlarged,normal,absent,5.66,234.0,3.63,191.0,1131.2,98.98,126.0,243.0,11.01,4.0,no
+352,3189,death,Drug_A,25523,F,accumulation of fluid,enlarged,normal,absent,2.12,,3.94,51.0,1097.87,104.89,,134.0,10.71,2.0,no
+353,1419,death,Drug_A,14603,F,accumulation of fluid,enlarged,spider angiomas present,present,1.31,290.0,3.43,267.0,5542.07,74.27,123.0,248.0,11.11,4.0,done
+354,4455,censored,Drug_A,21029,F,no fluid buildup,enlarged,spider angiomas present,absent,1.11,305.0,4.18,55.0,7468.75,114.66,87.0,216.0,10.71,3.0,no
+355,2572,death,Drug_A,19934,F,no fluid buildup,enlarged,normal,absent,1.11,259.0,3.39,43.0,1090.8,108.02,72.0,125.0,10.71,4.0,no
+356,2514,death,Drug_A,23569,F,no fluid buildup,enlarged,spider angiomas present,absent,14.54,452.0,3.69,34.0,1230.18,61.05,314.0,377.0,11.82,4.0,no
+357,2232,censored,Drug_A,23094,F,no fluid buildup,normal,normal,absent,0.61,215.0,4.11,12.0,5353.0,57.92,67.0,235.0,11.11,1.0,no
+358,2818,death,Drug_B,18113,F,no fluid buildup,normal,normal,absent,1.21,317.0,3.23,205.0,12381.39,72.96,149.0,422.0,10.71,3.0,no
+359,1526,censored due to transplant,Drug_B,16444,F,no fluid buildup,enlarged,spider angiomas present,absent,3.43,359.0,3.15,191.0,1930.11,92.92,128.0,311.0,11.31,3.0,no
+360,384,death,Drug_A,28578,F,accumulation of fluid,normal,normal,present,1.41,208.0,3.16,36.0,1642.26,87.67,69.0,142.0,12.32,4.0,done
+361,3460,censored,,19745,F,,,,absent,5.45,,4.23,,,,,138.0,11.31,2.0,no
+362,990,death,Drug_A,25113,F,no fluid buildup,enlarged,normal,absent,2.63,,3.13,95.0,6520.76,57.33,,209.0,11.11,4.0,no
+363,553,death,,26079,F,,,,present or resolved,0.61,,3.85,,,,,156.0,11.11,4.0,not required or resolved
+364,1073,censored due to transplant,Drug_B,17279,F,no fluid buildup,enlarged,normal,absent,3.54,351.0,3.23,123.0,947.38,121.2,144.0,290.0,10.1,4.0,no
+365,1791,censored,Drug_A,24056,F,no fluid buildup,enlarged,normal,absent,1.92,357.0,3.0,87.0,1568.53,198.82,150.0,271.0,10.0,3.0,no
+366,1204,death,Drug_B,20945,M,accumulation of fluid,enlarged,normal,present,0.81,,2.29,43.0,735.28,71.71,,152.0,11.11,4.0,done
+367,2050,death,,27941,F,,,,present or resolved,0.71,,4.0,,,,,,11.41,4.0,not required or resolved
+368,1723,death,Drug_A,19538,F,no fluid buildup,enlarged,normal,absent,2.02,412.0,3.69,51.0,1093.83,111.15,97.0,196.0,11.51,2.0,no
+369,1432,censored due to transplant,Drug_A,17875,F,no fluid buildup,normal,normal,absent,1.62,,3.1,138.0,2014.95,129.28,,364.0,9.7,4.0,no
+370,1665,death,Drug_A,22710,M,no fluid buildup,enlarged,normal,absent,0.91,379.0,3.9,204.0,1025.15,84.54,152.0,233.0,10.4,4.0,no
+371,1447,death,,23471,F,,,,absent,0.71,,3.43,,,,,363.0,10.2,4.0,no
+372,1086,censored,,24961,F,,,,absent,1.01,,3.62,,,,,239.0,10.91,3.0,no
+373,3118,censored,Drug_A,16007,F,no fluid buildup,normal,normal,absent,0.4,265.0,3.61,125.0,844.36,75.14,119.0,436.0,11.11,2.0,no
+374,1137,censored,Drug_B,11390,F,no fluid buildup,normal,normal,absent,0.81,275.0,3.6,53.0,1294.82,131.3,58.0,337.0,10.61,2.0,no
+375,933,censored,,19372,F,,,,absent,0.81,,3.04,,,,,250.0,10.71,3.0,no
+376,2378,censored,,16392,F,,,,present or resolved,0.4,,3.85,,,,,221.0,10.61,3.0,not required or resolved
+377,1673,death,Drug_A,16701,F,no fluid buildup,normal,spider angiomas present,absent,3.94,353.0,3.25,123.0,1280.68,275.53,228.0,264.0,9.7,3.0,no
+378,1346,death,Drug_A,24500,M,no fluid buildup,normal,normal,absent,1.82,420.0,3.98,123.0,10266.65,80.78,216.0,208.0,11.11,3.0,no
+379,355,death,,21981,F,,,,absent,2.73,,3.38,,,,,139.0,11.62,4.0,no
+380,3814,death,Drug_B,19405,F,no fluid buildup,normal,normal,absent,0.81,278.0,3.64,55.0,4375.32,100.32,141.0,267.0,10.71,2.0,no
+381,2597,censored,Drug_B,19429,F,no fluid buildup,normal,normal,absent,0.81,285.0,3.84,155.0,725.18,109.59,166.0,333.0,10.2,3.0,no
+382,2478,censored,Drug_A,20314,F,no fluid buildup,normal,spider angiomas present,absent,2.32,,3.97,24.0,1846.28,134.63,,320.0,10.3,2.0,no
+383,1044,censored,,21235,F,,,,absent,1.62,,3.45,,,,,140.0,10.0,3.0,no
+384,2308,censored,Drug_A,23330,F,no fluid buildup,enlarged,normal,absent,0.71,188.0,3.51,41.0,660.54,122.11,97.0,160.0,11.11,4.0,no
+385,2665,censored,Drug_A,18129,F,no fluid buildup,normal,normal,absent,1.21,393.0,3.65,32.0,1524.09,89.23,51.0,257.0,9.09,3.0,no
+386,2201,death,Drug_A,15049,F,no fluid buildup,enlarged,spider angiomas present,absent,0.81,332.0,3.54,49.0,7699.03,127.68,122.0,314.0,10.71,3.0,no
+387,700,death,Drug_B,22782,F,no fluid buildup,enlarged,normal,absent,0.81,,3.86,59.0,684.78,98.63,,228.0,11.11,4.0,no
+388,2990,censored due to transplant,,17882,F,,,,absent,0.51,,3.8,,,,,380.0,10.2,2.0,no
+389,1888,censored,Drug_A,14299,F,no fluid buildup,enlarged,spider angiomas present,absent,1.52,255.0,3.83,68.0,1016.06,140.9,104.0,334.0,9.8,3.0,no
+390,1747,censored,Drug_A,29223,M,accumulation of fluid,enlarged,spider angiomas present,absent,7.17,245.0,3.06,387.0,992.83,159.68,152.0,95.0,11.31,4.0,no
+391,666,death,Drug_A,20966,F,no fluid buildup,normal,spider angiomas present,absent,3.43,273.0,3.67,473.0,1389.76,122.11,54.0,169.0,11.72,4.0,no
+392,3525,death,,24215,F,,,,present or resolved,1.41,,3.07,,,,,324.0,12.22,4.0,not required or resolved
+393,2769,censored,Drug_B,15924,F,no fluid buildup,normal,normal,absent,2.32,507.0,3.6,4.0,973.64,122.11,178.0,263.0,9.7,2.0,no
+394,1419,censored,Drug_B,13072,F,no fluid buildup,normal,normal,present or resolved,1.01,320.0,3.6,44.0,1652.36,84.84,109.0,386.0,9.9,3.0,not required or resolved
+395,2418,censored,Drug_A,19641,F,no fluid buildup,enlarged,normal,absent,0.91,311.0,3.73,68.0,702.96,51.66,99.0,337.0,9.9,4.0,no
+396,1637,censored,,20118,M,,,,absent,1.72,,2.4,,,,,162.0,9.9,3.0,no
+397,1288,censored,Drug_A,22553,M,no fluid buildup,enlarged,normal,absent,6.67,1010.0,3.1,89.0,3181.5,194.93,131.0,293.0,11.01,4.0,no
+398,3125,censored,,13411,F,,,,absent,8.99,,3.8,,,,,204.0,10.71,3.0,no
+399,1684,censored,Drug_A,19182,F,no fluid buildup,normal,normal,absent,1.11,418.0,3.47,81.0,1013.03,99.99,54.0,265.0,9.7,1.0,no
+400,984,censored,Drug_B,21719,F,no fluid buildup,normal,normal,absent,0.4,262.0,2.78,41.0,1177.66,70.7,81.0,226.0,10.91,2.0,no
+401,2862,censored,Drug_B,13034,F,no fluid buildup,normal,spider angiomas present,absent,1.01,,3.67,58.0,1551.36,136.2,,228.0,10.1,1.0,no
+402,841,death,Drug_B,23098,F,no fluid buildup,enlarged,spider angiomas present,absent,2.83,244.0,3.84,75.0,620.14,137.76,102.0,118.0,13.33,4.0,no
+403,1140,death,Drug_A,26056,M,no fluid buildup,enlarged,normal,absent,2.32,591.0,3.04,247.0,2298.76,115.85,124.0,332.0,11.01,3.0,no
+404,770,death,,23843,F,,,,absent,1.82,,3.18,,,,,179.0,10.5,4.0,no
+405,546,death,Drug_B,19174,M,no fluid buildup,enlarged,normal,absent,2.32,179.0,3.03,147.0,753.46,180.03,120.0,116.0,12.12,4.0,no
+406,2081,censored,,23098,F,,,,absent,0.71,,3.32,,,,,186.0,9.9,2.0,no
+407,2427,censored,Drug_B,15421,F,no fluid buildup,normal,normal,present or resolved,0.61,298.0,4.1,37.0,1042.32,81.41,82.0,433.0,12.12,3.0,not required or resolved
+408,93,death,,17138,F,,,,present or resolved,3.13,,3.6,,,,,139.0,13.74,4.0,not required or resolved
+409,1069,death,Drug_B,15337,F,no fluid buildup,normal,normal,absent,5.96,1288.0,3.89,143.0,1216.04,205.08,155.0,211.0,10.81,3.0,no
+410,3264,censored,Drug_A,20652,F,no fluid buildup,normal,normal,absent,0.61,300.0,4.17,29.0,765.58,65.75,84.0,250.0,10.81,3.0,no
+411,966,censored,,19745,F,,,,absent,0.71,,3.32,,,,,343.0,10.71,4.0,no
+412,3410,censored,Drug_B,23913,M,no fluid buildup,enlarged,spider angiomas present,absent,0.61,254.0,3.87,41.0,851.43,65.75,82.0,329.0,11.51,4.0,no
+413,2431,censored,Drug_B,18868,F,no fluid buildup,enlarged,normal,absent,1.31,363.0,3.67,53.0,1830.12,98.63,162.0,250.0,10.0,3.0,no
+414,4142,censored,Drug_B,12105,F,no fluid buildup,normal,normal,absent,0.51,323.0,3.58,52.0,1255.43,123.67,79.0,220.0,10.1,3.0,no
+415,3354,censored,Drug_B,23292,F,no fluid buildup,normal,normal,absent,0.61,214.0,4.07,10.0,654.48,72.01,76.0,309.0,17.27,1.0,no
+416,1553,censored,Drug_B,18803,F,no fluid buildup,enlarged,normal,absent,1.01,324.0,3.54,95.0,964.55,112.11,175.0,283.0,9.8,3.0,no
+417,2826,censored,,20118,F,,,,absent,1.41,,3.86,,,,,244.0,10.4,2.0,no
+418,108,death,Drug_B,18241,F,accumulation of fluid,enlarged,spider angiomas present,present,2.52,189.0,3.71,58.0,1285.73,120.54,100.0,107.0,11.21,4.0,done
